@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;user-photos&apos; to &apos;static&apos;&#x0D;&#x0A;- Original project: &apos;ShopmeBackEnd&apos;&#x0D;&#x0A;- Destination element: &apos;static&apos;&#x0D;&#x0A;- Original element: &apos;user-photos&apos;" description="Copy folder" element1="user-photos" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1696353725464" target="/ShopmeBackEnd/src/main/resources/static" units="0" version="1.0"/>
+</session>
