@@ -15,7 +15,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 @Entity
-@Table(name="user")
+@Table(name="users")
 public class User {
 
 	@Id
@@ -160,9 +160,9 @@ public class User {
 	@Transient
 	public String getPhotosImagePath() {
 		if(id == null || photos == null) return "/images/default-image.jpeg";
-			
 		return "/user-photos/" + this.id + "/"+  this.photos ;
 	}
 	
 	
 }
+

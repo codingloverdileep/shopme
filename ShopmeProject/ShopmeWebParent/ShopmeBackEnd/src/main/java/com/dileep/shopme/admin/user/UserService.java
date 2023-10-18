@@ -2,7 +2,8 @@ package com.dileep.shopme.admin.user;
 
 import java.util.List;
 
-import com.dileep.shopme.admin.exception.UserNotFoundException;
+import org.springframework.data.domain.Page;
+
 import com.dileep.shopme.common.entity.Role;
 import com.dileep.shopme.common.entity.User;
 
@@ -21,4 +22,6 @@ public interface UserService {
 	public void delete(Integer id)throws UserNotFoundException;
 	
 	public void updateUserenableStatus(Integer id , boolean enabled);
+
+	public Page<User> listByPage(int pageNum);
 }
